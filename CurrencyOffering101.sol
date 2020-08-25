@@ -216,5 +216,4 @@ contract CurrencyOffering101 {
         _receiverAddress = trxes[searchNumber].receiverAddress;
     }  
 // __________________________________________________________________________________________
-
 }
