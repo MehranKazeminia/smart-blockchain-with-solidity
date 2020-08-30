@@ -119,7 +119,7 @@ contract CurrencyOffering101 {
     }
 // __________________________________________________________________________________________
 
-    function coinsSending(uint _trxValue , address _trxReceiver) public isMember() {
+    function SendCoins(uint _trxValue , address _trxReceiver) public isMember() {
         require (msg.sender != _trxReceiver);
         require (accounts[msg.sender].accountBalance >= _trxValue);
 
