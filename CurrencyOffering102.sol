@@ -54,7 +54,7 @@ contract CurrencyOffering102 {
     }
     event newAccountWasOpened();
     event newPaymentBasedWei();
-    event newBlockWasProduced(uint, uint, uint, uint, address, uint, address, uint);
+    event newBlockWasProduced(uint indexed, uint, uint, uint, address indexed, uint, address indexed, uint);
 // __________________________________________________________________________________________
       
     constructor(string memory _coineName, uint _priceOfCoin, uint _totalValue, uint _freeValue, uint _maxFreeValue) public {
