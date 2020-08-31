@@ -50,7 +50,7 @@ contract CurrencyOffering101 {
         lockTest = false;
     }
     event newAccountWasOpened();
-    event newBlockWasProduced(uint, uint, uint, uint, address, uint, address);
+    event newBlockWasProduced(uint indexed, uint, uint, uint, address indexed, uint, address indexed);
 // __________________________________________________________________________________________
       
     constructor(string memory _coineName, uint _totalValue, uint _freeValue, uint _maxFreeValue) public {
