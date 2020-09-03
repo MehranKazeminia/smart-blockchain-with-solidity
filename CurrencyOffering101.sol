@@ -166,7 +166,7 @@ contract CurrencyOffering101 {
     }  
 // __________________________________________________________________________________________
 
-    function systemCheking() public view isMember() returns (string memory _nameOfCoins, uint _totalNumberOfCoines, 
+    function systemChecking() public view isMember() returns (string memory _nameOfCoins, uint _totalNumberOfCoines, 
         uint _ownerBlance, uint _totalCustomerAccountBalance, uint _numberOfAccounts, 
         uint _numberOfTransactions, uint _restOfGifts) {
         
