@@ -224,8 +224,8 @@ contract CurrencyOffering102 {
     }  
 // __________________________________________________________________________________________
 
-    function systemCheking() public view isMember() returns (string memory _nameOfCoins, uint _priceOfEachCoin, 
-        uint _TotalNumberOfCoines, uint _ownerBlance, uint _totalCustomerAccountBalance, uint _numberOfAccounts, 
+    function systemChecking() public view isMember() returns (string memory _nameOfCoins, uint _priceOfEachCoin, 
+        uint _totalNumberOfCoines, uint _ownerBlance, uint _totalCustomerAccountBalance, uint _numberOfAccounts, 
         uint _numberOfTransactions, uint _restOfGifts, uint _contractBalance) {
         
         uint circulatingCurrencies = 0;
@@ -236,7 +236,7 @@ contract CurrencyOffering102 {
         }
         _nameOfCoins = coineName;
         _priceOfEachCoin = priceOfCoin;
-        _TotalNumberOfCoines = totalValue;
+        _totalNumberOfCoines = totalValue;
         _ownerBlance = accounts[owner].accountBalance;
         _totalCustomerAccountBalance = circulatingCurrencies;
         _numberOfAccounts = accountCount;  
