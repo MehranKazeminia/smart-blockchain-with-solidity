@@ -155,7 +155,7 @@ contract CurrencyOffering101 {
     }  
 // __________________________________________________________________________________________
 
-    function cheakBalance() public view isMember() returns (uint _yourAccountNumber, uint _accountOpeningTime, 
+    function checkBalance() public view isMember() returns (uint _yourAccountNumber, uint _accountOpeningTime, 
         uint _yourAccountBalance, string memory _nameOfCoins, address _yourAddress) {
         
         _yourAccountNumber = accounts[msg.sender].accountNumber;
