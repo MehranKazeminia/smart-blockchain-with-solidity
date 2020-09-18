@@ -8,7 +8,7 @@ contract TokenCreator106 {
     string symbol;
     uint256 totalValue;
     uint256 priceOfCoin;    
-    uint128 decimals;
+    uint8 decimals;
     address owner;  
     
 //  For example:
